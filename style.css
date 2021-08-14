@@ -1,0 +1,66 @@
+
+body {
+    background-color: black;
+    margin:0;
+    font-family: 'PT Serif', serif;
+}
+
+.container{
+    margin-top: 55px;
+}
+
+.post {
+    background-color: white;
+    margin: auto;
+    width: 600px;
+}
+
+.post-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5px;
+}
+
+.post-header-htmlicon{
+    display: flex;
+    width: 5%;
+    justify-content: center;
+    padding-right: 5px;
+}
+
+.post-header-text{
+    width: 30%;
+}
+
+.post-header-text * {
+    margin: 0;
+}
+
+.post-header-doticon {
+    width: 65%;
+    text-align: end;
+    padding-right: 5px;
+}
+
+img {
+    width: 100%;
+}
+
+.post-body{
+    padding: 20px;
+}
+
+.post-body-icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons{
+    padding-right: 5px;
+}
+
+.iconos-izq{
+    display: flex;
+}
+
